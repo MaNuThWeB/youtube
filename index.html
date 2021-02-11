@@ -193,45 +193,25 @@
 </section>
 <!-- //pricing -->
 
-<!DOCTYPE html>
-<!-- Created By CodingNepal -->
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <!-- Somehow I got an error, so I comment the title, just uncomment to show -->
-    <!-- <title>Custom Range Slider | CodingNepal</title> -->
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div class="range">
-        <div class="sliderValue">
-          <span>100</span>
-        </div>
-<div class="field">
-          <div class="value left">
-0</div>
-<input type="range" min="10" max="200" value="100" steps="1">
-          <div class="value right">
-200</div>
-</div>
-</div>
-<script>
-      const slideValue = document.querySelector("span");
-      const inputSlider = document.querySelector("input");
-      inputSlider.oninput = (()=>{
-        let value = inputSlider.value;
-        slideValue.textContent = value;
-        slideValue.style.left = (value/2) + "%";
-        slideValue.classList.add("show");
-      });
-      inputSlider.onblur = (()=>{
-        slideValue.classList.remove("show");
-      });
-    </script>
-
-  </body>
-</html>
-
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <title>Design a Progress bar</title> 
+</head> 
+<body> 
+    <h1>My Skills</h1> 
+    <p>HTML</p> 
+    <div class="container"> 
+        <div class="skill html">80%</div> 
+    </div> 
+  
+    <p>PHP</p> 
+    <div class="container"> 
+        <div class="skill php">60%</div> 
+    </div> 
+</body> 
+  
+</html> 
 
 	
 	
