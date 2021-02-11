@@ -1,2 +1,2 @@
 # clanbro.github.io
-The official website of Clan Bro YouTube Channel.
+The official website of MaNuTh YouTube Channel.
