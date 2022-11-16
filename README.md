@@ -1,2 +1,2 @@
 # MaNuTh.github.io
-The official website of MaNuTh YouTube Channel.
+The official website of MaNuTh RaNaWaKa.
