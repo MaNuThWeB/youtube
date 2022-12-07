@@ -798,6 +798,7 @@ p.counter{
 	font-size: 3em;
     color: #eee;
     font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
 }
 .agileinfo_stats_grid h3{
     font-size: 18px;
