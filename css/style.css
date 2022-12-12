@@ -774,7 +774,8 @@ ul.social li:hover{
     text-align: right;
 }
 .copyleft,.copyright {
-    border-top: 1px solid #333;
+    border-top: 1px solid rgb(224, 224, 224);
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /*-- //footer --*/
